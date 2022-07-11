@@ -16,11 +16,11 @@ class MainActivity : AppCompatActivity() {
     fun displayTweets(){
         var tweet1 = Twitter("@Rosesandalotus","Swabrina","Happy holidays","",
             "","4","","2","","5")
-        var tweet2 = Twitter("@Yugi","Yugi","Kotlin!!","","","6",
+        var tweet2 = Twitter("@Yugi","Yugi","You are more fun than anyone or anything I know, including bubble wrap.","","","6",
             "","5","","6")
-        var tweet3 = Twitter("@Kirigo","Kirigo","Kotlin!!!","","",
+        var tweet3 = Twitter("@Kirigo","Kirigo","You are more fun than anyone or anything I know, including bubble wrap.!","","",
         "5","","8","","9")
-        var tweet4 = Twitter("@Miriam","Miriam","Kotlin","","",
+        var tweet4 = Twitter("@Miriam","Miriam","You are more fun than anyone or anything I know, including bubble wrap.","","",
         "5","","4","","11")
       var tweetList =
             listOf(tweet1,tweet2,tweet3,tweet4,tweet4)
