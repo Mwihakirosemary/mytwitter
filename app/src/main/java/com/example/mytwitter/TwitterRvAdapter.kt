@@ -39,8 +39,8 @@ class tweetsViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
     var tvRets = itemView.findViewById<TextView>(R.id.tvRets)
     var tvLiks = itemView.findViewById<TextView>(R.id.tvLiks)
     var imgAvatar = itemView.findViewById<ImageView>(R.id.imgAvatar)
-    var imgComment = itemView.findViewById<TextView>(R.id.imgComment)
-    var imgLoop = itemView.findViewById<TextView>(R.id.imgLoop)
-    var imgLike = itemView.findViewById<TextView>(R.id.imgLike)
+    var imgComment = itemView.findViewById<ImageView>(R.id.imgComment)
+    var imgLoop = itemView.findViewById<ImageView>(R.id.imgLoop)
+    var imgLike = itemView.findViewById<ImageView>(R.id.imgLike)
 }
 
